@@ -17,12 +17,13 @@
     "percentage"
   ],
   "main": "./numeral.js",
+  "types": "./index.d.ts",
   "engines": {
     "node": "*"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adamwdraper/Numeral-js"
+    "url": "https://github.com/matheo/Numeral-js"
   },
   "bugs": {
     "url": "https://github.com/adamwdraper/Numeral-js/issues"
@@ -51,9 +52,8 @@
     "uglify-js": "latest"
   },
   "scripts": {
+    "build": "grunt build",
+    "dist": "grunt dist",
     "test": "grunt"
-  },
-  "ender": "./ender.js",
-  "_id": "numeral@1.5.4",
-  "_from": "numeral"
+  }
 }

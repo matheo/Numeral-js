@@ -25,17 +25,15 @@ Develop [![Build Status](https://travis-ci.org/adamwdraper/Numeral-js.svg?branch
 
 1. Fork the library
 
-2. [Install grunt](http://gruntjs.com/getting-started#installing-the-cli)
+2. Run `npm install` to install dependencies
 
-3. Run `npm install` to install dependencies
+3. Create a new branch from `develop`
 
-4. Create a new branch from `develop`
+4. Add your tests to the files in `/tests`
 
-5. Add your tests to the files in `/tests`
+5. To test your tests, run `grunt`
 
-6. To test your tests, run `grunt`
-
-7. When all your tests are passing, run `grunt dist` to compile and minify all files
+6. When all your tests are passing, run `npm run dist` to compile and minify all files
 
 8. Submit a pull request to the `develop` branch.
 

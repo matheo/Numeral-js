@@ -136,6 +136,7 @@ module.exports = function(grunt) {
             ],
             options: {
                 'node': true,
+                'esversion': 6,
                 'browser': true,
                 'curly': true,
                 'devel': false,
