@@ -1,7 +1,6 @@
 # Numeral.js for Angular
 
 A javascript library for formatting and manipulating numbers.
-With the included Typescript definitions and Library modifications there's no need of a special Rollup configuration, it's ready to use out of the box.
 
 [Website and Documentation](http://numeraljs.com/)
 
@@ -9,6 +8,8 @@ With the included Typescript definitions and Library modifications there's no ne
 
 
 # Usage
+
+With the included Typescript definitions and Library modifications there's no need of a special Rollup configuration, it's ready to use out of the box.
 
 Add the library to your project using the repository directly:
 ```
